@@ -13,7 +13,7 @@ nav {
 
 a {
     text-decoration: none;
-    font-family: 'Permanent Marker',
+    font-family: 'Permanent Marker', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     cursive;
     color: inherit;
 }
