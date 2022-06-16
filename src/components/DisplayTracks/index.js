@@ -24,7 +24,7 @@ const renderRows = () => {
         </thead>
     
         <tbody>
-        { renderRows(setTracks) }
+        { renderRows() }]
         </tbody>
     </table>
 );
