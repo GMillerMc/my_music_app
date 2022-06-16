@@ -11,7 +11,7 @@ const [tracks, setTracks] = useState([
 ])
 
 const renderRows = () => {
-    return setTracks, tracks.map(t => <tr><td>{t.name}</td><td><img src={t.img} /></td></tr>)
+    return tracks.map(t => <tr><td>{t.name}</td><td><img src={t.img} /></td></tr>)
 }
 
     return (
@@ -24,7 +24,7 @@ const renderRows = () => {
         </thead>
     
         <tbody>
-        { renderRows() }]
+        { renderRows(setTracks) }
         </tbody>
     </table>
 );

@@ -2,6 +2,7 @@
     width: 100vw;
     position: fixed;
     bottom: 0;
-    background-color: grey;
+    background-color: whitesmoke;
     padding: 20px;
+    font-family: 'Permanent Marker', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
