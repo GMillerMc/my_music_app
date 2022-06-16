@@ -1,6 +1,6 @@
 # HouseFans
 
-## A non-CRA REACT APP
+## A non-CRA APP
 
 
 ## About HouseFans
