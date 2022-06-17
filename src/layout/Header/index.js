@@ -16,7 +16,7 @@ export const Header = () => {
             <NavLink className={activeClass} to='/events'>Events</NavLink>
             <BackButton />
         </nav>
-        <Outlet />
+        {/* <Outlet /> */}
     </div>
     )
 }
