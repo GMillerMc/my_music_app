@@ -1,3 +1,23 @@
 .image-container {
-    display: block;
+    display: flex;
+
 }
+
+.flip-box{
+    flex: 33.33%;
+    padding: 2vw;
+    margin-top: 20vh;
+    column-gap: 10px;
+}
+
+h3 {
+    font-family: 'Comfortaa', 'cursive';
+    font-size: 5vw;
+}
+
+p {
+    font-family: 'Comfortaa', 'cursive';
+    font-size: 2vw;
+}
+/* turn links purple on hover
+ */
