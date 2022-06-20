@@ -5,7 +5,7 @@ export const UserForm = () => {
     const [nameInput, setNameInput] = useState('');
 
     const handleInput = (e) => {
-        console.log(e.target.value)
+        setNameInput(e.target.value)
     }
 
     const handleFormSubmmit = (e) => {

@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import './style.css'
+import { HypeButton } from '../HypeButton';
 
 export const DisplayTracks = () => {
+    const [flip, setflip] = useState(false);
     return(
-    <>
+        <>
+    
     <div className='image-container'>
         <div className='flip-box'>
             <div className='flip-box-inner'>
@@ -13,8 +16,11 @@ export const DisplayTracks = () => {
                 </div>
                 
                 <div className='flip-box-back'>
-                <h3>About You</h3>
+                <h4>About You</h4>
                 <p>Buy now on <a href='https://www.beatport.com/track/about-you/14469287'>Beatport</a></p>
+                <div>
+                
+                </div>
                 </div>
             </div>
         </div>
@@ -27,8 +33,8 @@ export const DisplayTracks = () => {
                 </div>
                 
                 <div className='flip-box-back'>
-                <h3>Nah (feat. Sinead Harnett)</h3>
-                <p>Buy now on <a href='https://www.beatport.com/track/nah-feat-sinead-harnett/15566850'>Beatport</a></p>
+                <h4>Nah (feat. Sinead Harnett)</h4>
+                <h4>Buy now on <a href='https://www.beatport.com/track/nah-feat-sinead-harnett/15566850'>Beatport</a></h4>
                 </div>
             </div>
         </div>
@@ -42,8 +48,8 @@ export const DisplayTracks = () => {
                 </div>
                 
                 <div className='flip-box-back'>
-                <h3>Water (feat. Zohara)</h3>
-                <p>Buy now on <a href='https://www.beatport.com/track/water-feat-zohara/14427966'>Beatport</a></p>
+                <h4>Water (feat. Zohara)</h4>
+                <h4>Buy now on <a href='https://www.beatport.com/track/water-feat-zohara/14427966'>Beatport</a></h4>
                 </div>
             </div>
             </div>
@@ -56,8 +62,8 @@ export const DisplayTracks = () => {
                 </div>
                 
                 <div className='flip-box-back'>
-                <h3>What You've Done To Me (feat. Bemendé</h3>
-                <p>Buy now on <a href='https://www.beatport.com/track/what-youve-done-to-me-feat-bemende/15667046'>Beatport</a></p>
+                <h4>What You've Done To Me (feat. Bemendé</h4>
+                <h4>Buy now on <a href='https://www.beatport.com/track/what-youve-done-to-me-feat-bemende/15667046'>Beatport</a></h4>
                 </div>
             </div>
         </div>
@@ -70,8 +76,8 @@ export const DisplayTracks = () => {
                 </div>
                 
                 <div className='flip-box-back'>
-                <h3>Roads (feat. Dan Caplen)</h3>
-                <p>Buy now on <a href='https://www.beatport.com/track/roads-feat-dan-caplen/15542863'>Beatport</a></p>
+                <h4>Roads (feat. Dan Caplen)</h4>
+                <h4>Buy now on <a href='https://www.beatport.com/track/roads-feat-dan-caplen/15542863'>Beatport</a></h4>
                 </div>
             </div>
         </div>

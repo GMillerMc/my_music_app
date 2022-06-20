@@ -5,9 +5,9 @@ import './style.css';
 export const Music = () => {
     return(
         <>
-        <div>
+        <h1>Tracks by KREAM</h1>
         <DisplayTracks />
-        </div>
+        
         </>
     )
 }
